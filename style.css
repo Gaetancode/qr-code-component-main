@@ -1,10 +1,17 @@
+/* custom colors */
 :root{
 --White: hsl(0, 0%, 100%);
---Lightgray: hsl(212, 45%, 89%);
---Grayishblue: hsl(220, 15%, 55%);
---Darkblue: hsl(218, 44%, 22%);
+--Lightgray: #d6e2f0;
+--Grayishblue: #7b879d;
+--Darkblue: #1f3251;
 --400: 400;
 --700: 700;
+}
+/* reset css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
