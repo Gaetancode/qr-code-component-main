@@ -14,11 +14,12 @@
 }
 
 body {
+  margin: 0;
   font-size: 15px;
   font-family: "Outfit", sans-serif;
   color: #7b879d;
-  width: 375px;
-  height: 667px;
+  min-width: 100%;
+  min-height: 100vh;
   background-color: var(--Lightgray);
   display: flex;
   justify-content: center;
